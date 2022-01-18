@@ -1,5 +1,8 @@
 ---
 applications:
- - name: movies-reviews-database
+ - name: movies-reviews-database-974
    random-route: false
    memory: 128M
+services:
+- Cloudant-vo
+- Natural Language Understanding-7d
